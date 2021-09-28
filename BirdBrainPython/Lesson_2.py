@@ -11,6 +11,7 @@ diffrence = rightLight - leftLight
 mean = rightLight + leftLight / 2
 print("mean: ", mean)
 """
+print("idk")
 print("distance: ", distance)
 print("rightlight: ", rightLight)
 print("leftlight: ", leftLight)
@@ -18,6 +19,7 @@ print("ButtonA: ", buttonA)
 print("Orientation: ", orientation)
 print("RightWheel: ", rightEncode)
 
+print("idk")
 print("distance: ",type(distance))
 print("rightlight: ",type(rightLight))
 print("leftlight: ", type(leftLight))
