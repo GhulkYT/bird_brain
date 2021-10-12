@@ -13,8 +13,8 @@ r = 100
 b = 0
 g = 0
 for x in range(3):
-    bird.setBeak(all,r,b,g)
-    bird.setTail(all,r,b,g)
+    bird.setBeak(r,g,b)
+    bird.setTail(4,r,g,b)
     sleep(2)
     b = r * 1
     r = r * 0
