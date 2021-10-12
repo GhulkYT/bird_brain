@@ -16,8 +16,9 @@ for x in range(3):
     bird.setBeak(r,g,b)
     bird.setTail(4,r,g,b)
     sleep(2)
+    g = b
     b = r * 1
     r = r * 0
-    g = g + 50
+    
 
 bird.stopAll()
