@@ -8,7 +8,8 @@ bird.setTail(1,0,0,100)
 bird.setTail(3,0,0,100)
 sleep(2)
 bird.stopAll()
-"""
+
+exercise 4
 r = 100
 b = 0
 g = 0
@@ -19,6 +20,6 @@ for x in range(3):
     g = b
     b = r * 1
     r = r * 0
-    
+"""
 
 bird.stopAll()
