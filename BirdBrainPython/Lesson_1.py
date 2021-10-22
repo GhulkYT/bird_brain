@@ -1,3 +1,11 @@
+'''
+Lorenzo you didn't do 
+al the exercise.
+But I do like how you used 
+a For loop to make the 
+square
+'''
+
 from BirdBrain import Finch
 bird = Finch()
 """

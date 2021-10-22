@@ -1,6 +1,12 @@
+'''
+Lorenzo you need helpon this one
+'''
+
 from BirdBrain import Finch
 bird=Finch()
+
 #addition = +, subtraction = -, multiplication = *, division = /,Modulo = %,
+
 distance = bird.getDistance()
 rightLight = bird.getLight('R')
 leftLight = bird.getLight('L')
