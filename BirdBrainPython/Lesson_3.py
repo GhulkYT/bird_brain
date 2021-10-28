@@ -49,13 +49,13 @@ r = 100
 b = 0 
 g = 0 
 for x in range(4): 
-bird.setBeak(r,g,b) 
-bird.setTail(all,r,g,b) 
-g = b 
-b = r * 1 
-r = r * 0 
-bird.setMove('f',5,100) 
-bird.setTurn('R',90,50) 
+    bird.setBeak(r,g,b) 
+    bird.setTail(all,r,g,b) 
+    g = b 
+    b = r * 1 
+    r = r * 0 
+    bird.setMove('f',5,100) 
+    bird.setTurn('R',90,50) 
 """
 
 
