@@ -43,6 +43,97 @@ bird.stop()
 """
 """
 exercise 4
-
+What do you think the code below will do?
+Make a hypothesis, and then try it out.
+i think if you dont put g then the beak wont change colors
+but if yo do it will turn green
+ 
+color = input("Please enter a letter: ")
+if (color == 'g'):
+    bird.setBeak(0,100,0)
+else:
+    print('Sorry, that is not my favorite Letter!')
+sleep(1)
+bird.stopAll()
 """
+ 
+ 
+"""
+exercise 5
+ 
+Write a program that asks the user to enter r or l.
+If the user enters ‘r’, the Finch should make a wide turn to the right.
+Otherwise, the Finch should make a wide turn to the left.
+ 
+ 
+turn = input("Please enter a letter: ")
+if (turn == 'r'):
+    bird.setMotors(5,90)
+else if (turn == 'l'):
+    bird.setMotors(90,5)
+else:
+    print('gotta put l or r')
+sleep(1)
+bird.stopAll()
+"""
+ 
+"""
+exercise 6
+Try out this code. Then modify it so that only slow speeds are valid.
+ 
+ 
+userResponse = input("Please enter a speed (0 to 10): ")
+speed = int(userResponse)
+if (speed >= 0) and (speed <= 10): # If both are true
+ 
+    bird.setMotors(speed, speed) # Move forward
+    sleep(1)
+    bird.stop()
+ 
+else: # Otherwise
+ 
+print("That speed is not valid!") # Error
+"""
+ 
+"""
+exercise 7
+Write a program that asks the user for a wheel speed between 0 and 50.
+If the user enters an invalid value, the program should print an error.
+Otherwise, the Finch should turn for 5 seconds with the speed of the left wheel equal
+to the speed entered by the user and the speed of the right wheel equal to twice the entered speed.
+ 
+userResponse = input("Please enter a speed (0 to 50): ")
+speed = int(userResponse)
+if (speed >= 0) and (speed <= 50): # If both are true
+    right = speed * 2
+    bird.setMotors(speed, right) # Move forward
+    sleep(1)
+    bird.stop()
+ 
+else: # Otherwise
+ 
+print("That speed is not valid!") # Error
+ 
+"""
+ 
+"""
+exercise 8
+ 
+bird.setMotors(5,90)
+sleep(1)
+bird.setMotors(90,5)
+sleep(1)
+bird.setMotors(5,90)
+sleep(1)
+bird.setMotors(90,5)
+sleep(1)
+bird.setMotors(5,90)
+sleep(1)
+bird.setMotors(90,5)
+sleep(1)
+bird.stop()
+"""
+ 
+
+
 
